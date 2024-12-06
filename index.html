@@ -6,16 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to my page</title>
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="blue_style.css"> 
 </head>
 <body >
     <header>
-        <h2>This is the header</h2>
-        <img src="school_logo.avif" alt="school logo" width="100%" height="20%">
+        <h2>Welcome to this Primary School Management System</h2>
+        <img src="school_logo.avif" alt="school logo" >
     </header>
-    <h1>I am the coolest person in computer science</h1>
+    <nav class="navbar"> 
+        <ul> 
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About</a></li> 
+            <li><a href="services.html">Services</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+        </ul> 
+    </nav>
+    <main class="container">
+        <h1>Login Form</h1>
+  
+        
+        <form>
+            
+                <label for="username">Username/Email:</label>
+                <input type="text" id="username" name="username" required>
+            
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            
+            
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option value="teacher">Teacher</option>
+                    <option value="admin">Admin</option>
+                </select>
+
+            
+                <button type="submit">Login</button>
+                <button type="register">Register</button>
+            
+            
+        </form>
+      
+
+    </main>
+    
     <footer>
-        This is the footer and.
+        <p>This is the footer and end of file.</p>
     </footer>
     
 </body>

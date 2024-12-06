@@ -1,7 +1,7 @@
-/* Style for the entire body */
+/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,16 +11,27 @@ body {
     min-height: 100vh;
 }
 
-/* Style for the header */
+/* Header styling */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #4CAF50;
+    background-color: #0288d1;
     color: white;
     width: 100%;
 }
 
-/* Style for the main content container */
+/* Styling for header elements */
+header h2 {
+    margin: 0;
+}
+
+header img {
+    max-width: 100px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+/* Main container styling */
 .container {
     background-color: #fff;
     padding: 20px;
@@ -30,66 +41,51 @@ header {
     width: 100%;
     margin: 20px auto;
     text-align: center;
-
 }
 
-/* Style for the form elements */
+/* Form elements styling */
 form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    border-radius: 40px;
 }
 
 label {
     margin-bottom: 5px;
     text-align: left;
+    font-weight: bold;
+    color: #0277bd;
 }
 
 input, select {
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width:auto;
-    /*width: calc(100% - 22px); /* Subtracting the padding + border width */
+    border: 1px solid #0277bd;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Subtracting the padding + border width */
     box-sizing: border-box;
-   
 }
 
 button {
     padding: 10px;
-    background-color: #5cb85c;
+    background-color: #0288d1;
     border: none;
     color: white;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 8px;
-    margin:2px 2px;
-}
-button:visited{
-    color:red;
+    border-radius: 4px;
+    margin : 2px;
 }
 
 button[type="submit"]:hover, button[type="register"]:hover {
-    background-color: #4CAF50;
+    background-color: #0277bd;
 }
 
-/* Style for the footer */
+/* Footer styling */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #0288d1;
     color: white;
     width: 100%;
 }
-
-img{
-    display: flex;
-    width: 40%;
-    height: auto;
-    margin: auto;
-    border-radius: 40px;
-}
-
-
